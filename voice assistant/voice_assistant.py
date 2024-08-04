@@ -130,7 +130,7 @@ def handle_query(query, output_widget):
         open_website("youtube.com", "Opening YouTube")
     elif 'open google' in query:
         open_website("google.com", "Opening Google")
-    elif 'open stackoverflow' in query:
+    elif 'open stack overflow' in query:
         open_website("stackoverflow.com", "Opening Stack Overflow")
     elif 'play music' in query:
         speak("Playing music")
