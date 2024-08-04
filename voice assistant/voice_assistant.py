@@ -182,7 +182,7 @@ def handle_query(query, output_widget):
         hibernate_system(output_widget)
     elif "log off" in query or "sign out" in query:
         log_off_system(output_widget)
-    elif "write a note" in query:
+    elif "write note" in query:
         write_note()
     elif "show note" in query:
         show_note()
