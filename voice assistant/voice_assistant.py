@@ -285,7 +285,7 @@ def locate_place(query, output_widget):
 
 def take_photo(output_widget):
     """Take a photo using the webcam."""
-    ec.capture(0, "Jarvis Camera", "img.jpg")
+    ec.capture(0, "Pyscho Camera", "img.jpg")
     output_widget.append("Photo taken")
 
 def restart_system(output_widget):
